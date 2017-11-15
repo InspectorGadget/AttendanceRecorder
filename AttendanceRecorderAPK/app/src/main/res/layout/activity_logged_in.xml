@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    tools:context="tk.rtgnetwork.attendancerecorder.LoggedInActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="You have been successfully logged in!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="15dp"
+        android:text="Please enter the full name of your school student!"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/atn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/plcatn"
+        android:layout_marginTop="20dp"
+        android:text="Place Attendance!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/aerror"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_marginTop="10dp"
+        android:text="Log out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
